@@ -20,7 +20,3 @@ test('parenthèses', () => {
     expect(calculate('(2 + 3) * 4')).toBe(20);
 });
 
-test('parenthèses', () => {
-    expect(calculate('(2 + 3) * 4')).toBe(20);
-});
-
