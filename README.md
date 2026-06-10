@@ -20,6 +20,13 @@ Pour lancer les tests, utilisez la commande suivante dans votre terminal :
 ```
 ![Lancement des tests fail avec PHPUnit](<images/Capture d’écran du 2026-06-10 10-14-28.png>)
 
+### Lancement des tests corrects avec PHPUnit
+Pour lancer les tests, utilisez la commande suivante dans votre terminal :
+```bash
+./vendor/bin/phpunit tests/CalculatorTest.php
+```
+![test corriger](<images/Capture d’écran du 2026-06-10 10-00-11.png>)
+
 ## Tests unitaires JavaScript avec Jest
   Création du fichier `tests/calculator.test.js` contenant les tests unitaires de la fonction `calculate()`. Chaque test vérifie une opération ou un comportement différent de la
   calculatrice.
